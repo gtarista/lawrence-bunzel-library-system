@@ -1,0 +1,110 @@
+.base-register {
+    margin-top: 2%;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    max-width: 30%;
+    width: 30%;
+    height: auto;
+
+    display: grid;
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.create {
+    margin-bottom: 30px;
+}
+
+.create-text {
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+}
+
+.textfields {
+    display: block;
+    text-align: center;
+}
+
+.fname, .uname, .pass {
+    margin-bottom: 30px;
+}
+
+.conpass {
+    margin-bottom: 20px;
+}
+
+.fname-field, .uname-field, .pass-field, .conpass-field  {
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 50px;
+    width: 70%;
+    height: 40px;
+    
+    background: white;
+    font-size: 20px;
+}
+
+/* consent box + text line */
+.consent {
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 20px 70%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.consent-check {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.consent-text {
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(63, 63, 63);
+}
+
+.consent-check:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* sign up button */
+.signup {
+    text-align: center;
+}
+
+.signup-button {
+    border-width: 1px;
+    border: none;
+    border-radius: 22.5px;
+    height: 45px;
+    width: 40%;
+
+    background-color: #2D8A27;
+    font-size: 18px;
+    color: white;
+}
+
+.signup-button:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.15);
+    cursor: pointer;
+}
+
+.signup-button:active {
+    opacity: 0.5;
+}

@@ -1,0 +1,58 @@
+.quote {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 50px;
+    color: #028417;
+}
+
+.divider {
+    margin-top: 20px;
+    width: 25%;
+    height: 2px;
+    border: none;
+    background-color: #F2DB63;
+}
+
+/* misc. top */
+.body-top {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.add-button {
+    font-size: 20px;
+    color: white;
+    margin-left: -40px;
+    height: 45px;
+    width: 25%;
+    background-color: #2D8A27;
+    border-width: 1px;
+    border: none;
+    border-radius: 22.5px;
+}
+
+.add-button:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.15);
+    cursor: pointer;
+}
+
+.books-grid {
+    margin-top: 20px;
+    margin-bottom: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 40px;
+}

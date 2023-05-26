@@ -1,0 +1,30 @@
+
+.QueryBox {
+    width: 100%;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.QueryResult {
+    text-align: center;
+}
+
+.query-grid {
+    width: 282px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    border-color: rgb(149, 147, 147);
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+    background-color: white;
+    object-fit: contain;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.15);
+}

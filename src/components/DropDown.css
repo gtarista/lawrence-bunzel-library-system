@@ -1,0 +1,31 @@
+.dropdown {
+    margin-left: 75%;
+    width: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40%;
+    align-items: center;
+
+
+    font-size: 20px; 
+    font-family: Roboto;
+}
+
+.drop-select{
+    border: 40px;
+    border-radius: 20px;
+    padding: 6px;
+
+    font-size: 20px; 
+    font-family: Roboto;
+    background-color: rgb(221, 221, 221);
+}
+
+.drop-select:hover{
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+  
+.drop-select:focus{
+    outline:none;
+}

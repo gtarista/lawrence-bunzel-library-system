@@ -1,0 +1,132 @@
+/* general styles */
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
+}
+/* end of general styles */
+
+/* header styles */
+.header {
+    height: 130px;
+    background-image: linear-gradient(to right, white, #F2DB63, #2D8A27);
+    border-bottom: 5px solid #2D8A27;
+    border-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 80%;
+    margin-left: 50px;
+}
+
+.right-section {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    width: 550px;
+    justify-content: space-between;
+    margin-right: 50px;
+    max-width: 550px;
+    flex-shrink: 0;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-box {
+    height: 50px;
+    width: 200px;
+    border: none;
+    background: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 0 60px 0 20px;
+    flex:1;
+}
+
+.search-button {
+    border: 50px;
+    background: #2D8A27;
+    border-radius: 25px;
+    margin-left: -48px;
+    opacity: 80%;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    border: 50px;
+    background: #2D8A27;
+    border-radius: 25px;
+    margin-left: -48px;
+    opacity: 100%;
+}
+s
+.search-box:focus {
+    outline: 0;
+}
+
+.search-logo {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.home-button, .shelf-button {
+    border: none;
+    background: none;
+}
+
+.home-button:hover, .shelf-button:hover  {
+    border: none;
+    background: none;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.home-logo, .shelf-logo {
+    height: 40px;
+    align-items: center;
+}
+
+.account-button {
+    border: none;
+    background: none;
+}
+
+.account-button:hover {
+    border: none;
+    background: none;
+    cursor: pointer;
+    opacity: 80%;
+}
+.account-logo {
+    height: 50px;
+}
+/* end of header styles */
+
+/* bottom panel styles */
+.panel {
+    bottom:0%;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #2D8A27;
+    border-top: 5px solid #FFF97D;
+    border-left: 0;
+}
+

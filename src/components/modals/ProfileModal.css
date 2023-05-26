@@ -1,0 +1,156 @@
+.sidebar {
+    display: block;
+    
+    z-index: 1;
+
+    overflow-x: hidden;
+
+    position: fixed;
+    
+    top: 0;
+    right: 0;
+
+    height: 869px;
+    width: 0;
+
+    padding-top: 60px;
+
+    transition: 0.3s;
+    
+    background-color: white;
+}
+
+.sidebar a {
+    display: block;
+
+    font-size: 25px;
+    color: #818181;
+
+    padding: 8px 8px 8px 32px;
+
+    text-decoration: none;
+   
+    transition: 0.3s;
+}
+
+    .sidebar a:hover {
+        color: #f1f1f1;
+    }
+
+.sidebar .close-button {
+    position: absolute;
+
+    top: 0;
+    right: 25px;
+
+    font-size: 36px;
+    
+    margin-left: 50px;
+}
+
+.text-sidebar {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 34px;
+
+    color: black;
+
+    text-align: center;
+}
+
+#main {
+    transition: transform .5s;
+}
+
+.sidebar-profile {
+    position: absolute;
+
+    width: 160px;
+
+    margin-top: 50px;
+    margin-left: 158px
+
+}
+
+.text-sidebar-name{
+    display: block;
+
+    font-family: Arial;
+    font-weight: light;
+    font-size: 20px;
+
+    color: black;
+
+    padding-top: 255px;
+    padding-left: 50px;
+}
+
+.text-sidebar-user{
+    display: block;
+
+    font-family: Arial;
+    font-weight: light;
+    font-size: 20px;
+
+    color: black;
+
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.text-sidebar-type{
+    display: block;
+
+    font-family: Arial;
+    font-weight: light;
+    font-size: 20px;
+
+    color: black;
+
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.text-sidebar-mail{
+    display: block;
+
+    font-family: Arial;
+    font-weight: light;
+    font-size: 20px;
+
+    color: black;
+
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.logout-button {
+    font-weight: lighter;
+    font-size: 18px;
+
+    color: white;
+
+    height: 50px;
+    width: 100px;
+
+    margin-left: 180px;
+    margin-top: 80px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: rgb(63,151,37);
+
+    transition: opacity 0.15s, box-shadow 0.15s;
+
+    cursor: pointer;
+}
+
+    .logout-button:hover {
+        opacity: 0.8;
+        box-shadow: 5px 5px 5px rgba(0,0,0, 0.15);
+    }
+
+    .logout-button:active {
+        opacity: 0.5;
+    }

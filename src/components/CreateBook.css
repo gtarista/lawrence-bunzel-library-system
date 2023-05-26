@@ -1,0 +1,136 @@
+.add-body-top {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 10%;
+    width: 40%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    vertical-align: middle;
+
+    font-size: 30px; 
+    font-family: Roboto;
+}
+
+.back-logo {
+    width: 50%;
+    vertical-align: middle;
+    margin-top: -40px;
+}
+
+.add-base {
+    margin-top: -6px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 3%;
+    border-radius: 30px;
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 30px;
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.add-left-base {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    text-align: center;
+}
+
+.add-title, .add-author, .add-quantity, .genre, .add-upload, .add-description {
+    margin-bottom: 5%;
+}
+
+.add-title-field, .add-author-field, .add-quantity-field, .genre-field, .add-description-field  {
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 50px;
+    width: 70%;
+    height: 40px;
+    
+    background: white;
+    font-size: 20px;
+}
+
+.genre-select{
+    border: 40px;
+    border-radius: 20px;
+    padding: 6px;
+    width: 73%;
+    height: 40px;
+
+    font-size: 20px; 
+    font-family: Roboto;
+    color: rgb(113, 113, 113);
+    background-color: white;
+}
+
+.genre-select:hover{
+    background-color: rgb(249, 249, 249);
+    cursor: pointer;
+}
+  
+.genre-select:focus{
+    outline:none;
+}
+
+.add-create {
+    text-align: center;
+}
+
+.add-create-button {
+    border-width: 1px;
+    border: none;
+    border-radius: 22.5px;
+    height: 45px;
+    width: 40%;
+
+    background-color: #2D8A27;
+    font-size: 18px;
+    color: white;
+}
+
+.add-create-button:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.15);
+    cursor: pointer;
+}
+
+.add-create-button:active {
+    opacity: 0.5;
+}
+
+.add-right-base{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+    vertical-align: middle;
+}
+.add-logo {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.add-image {
+    width: 70%;
+    height: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    background: #e6e6e6;
+    border-radius: 20px;
+    border: 1px solid #555;
+    vertical-align: middle;
+
+    color: #555;
+    font-size: 16px;
+}
