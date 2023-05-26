@@ -1,3 +1,9 @@
+/*    COLLABORATORS
+*        
+*        
+*        
+*        Josh Ratificar
+*/
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { LandingPage } from './pages/LandingPage';
 import { LANDINGPAGE, HOME, REGISTER, CREATEBOOK, SHELF, ABOUTBOOK } from './lib/routes.js';
@@ -27,7 +33,7 @@ function App() {
         <Route path = {CREATEBOOK} element = {<CreateBook />}/>
         <Route path = {SHELF} element = {wrapNavBar(<ShelfPage />)}/>
         <Route path = {ABOUTBOOK} element = {wrapNavBar(<AboutBookPage />)}/>
-        <Route path = '/*' element = {<div>Error Detected</div>}/>
+        <Route path = '/*' element = {<div>Error Detected</div>}/> /*Good Catch...*/
       </Routes>
     </Router>
   );
