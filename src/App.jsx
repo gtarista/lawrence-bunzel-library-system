@@ -1,7 +1,7 @@
 /*    COLLABORATORS
 *        
 *        
-*        
+*        Reo Anne Dela Rita
 *        Josh Ratificar
 */
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
